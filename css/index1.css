@@ -129,6 +129,11 @@ header .cadastro p {
 
 }
 
+header #email {
+    border: 1.5px solid #000;
+    border-radius: 5px 0 0 5px;
+}
+
 header .email-butao{
     
 
@@ -156,7 +161,7 @@ header .email-butao a{
 
     font-size: 1.2rem;
     
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
 
     
 }
@@ -456,7 +461,7 @@ footer .suport #language{
 }
 
 footer .assinatura{
-    text-align: center;
+    
 
     position: relative;
     top: 80px;
